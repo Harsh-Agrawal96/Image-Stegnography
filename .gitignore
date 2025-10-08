@@ -1,0 +1,5 @@
+# ignore compiled files
+BitManager.class
+Decoder.class
+Encoder.class
+SteganographyApp.class
