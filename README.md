@@ -1,15 +1,15 @@
-# Java LSB Steganography Tool
+# ☕ Java LSB Steganography Tool
 
 A simple, command-line steganography tool written in Java. This application allows you to hide a secret text message within a PNG image using the **Least Significant Bit (LSB)** technique.
 
 ---
 
 
-## What It Does
+## 🧐 What It Does
 
 This tool provides a basic implementation of steganography, which is the practice of concealing a message within another, non-secret file or message. In this case, we hide text inside an image file. The resulting image (the stego-image) looks identical to the original image to the naked eye.
 
-### Features
+### ✨ Features
 * **Encode:** Hide any text message within a PNG image.
 * **Decode:** Extract the hidden text message from a stego-image.
 * **Interactive CLI:** A simple and easy-to-use menu-driven interface.
@@ -17,7 +17,7 @@ This tool provides a basic implementation of steganography, which is the practic
 ---
 
 
-## How It Works
+## 🛠️ How It Works
 
 The program uses the **LSB (Least Significant Bit)** method. It works by altering the last bit of each pixel's color data to store bits of the secret message.
 
@@ -29,7 +29,7 @@ Because only the least significant bit of each pixel is changed, the visual diff
 ---
 
 
-## Project Structure
+## 📂 Project Structure
 
 The code is organized into four main files for clarity and modularity:
 
@@ -41,14 +41,14 @@ The code is organized into four main files for clarity and modularity:
 ---
 
 
-## Requirements
+## ✅ Requirements
 
 * **Java Development Kit (JDK)** version 8 or higher.
 
 ---
 
 
-## How to Use
+## 🚀 How to Use
 
 Follow these steps to compile and run the application.
 
@@ -61,6 +61,7 @@ Place all four `.java` files (`SteganographyApp.java`, `Encoder.java`, `Decoder.
 Open a terminal or command prompt in the project directory and compile all the Java files using the following command:
 ```sh
 javac *.java
+```
 
 ### Step 3: Run the Application
 Run the main application file with this command:
